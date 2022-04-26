@@ -35,16 +35,16 @@ function Post({ post }) {
 					<a className="post-link" href={post.url}>
 						{post.num_comments ? `${post.num_comments} comments` : "comment"}
 					</a>
-					<a className="post-link-grey" href="#">
+					<a className="post-link-grey" href="/#">
 						share
 					</a>
-					<a className="post-link-grey" href="#">
+					<a className="post-link-grey" href="/#">
 						save
 					</a>
-					<a className="post-link-grey" href="#">
+					<a className="post-link-grey" href="/#">
 						hide
 					</a>
-					<a className="post-link-grey" href="#">
+					<a className="post-link-grey" href="/#">
 						report
 					</a>
 				</div>
