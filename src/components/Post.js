@@ -32,7 +32,7 @@ function Post({ post }) {
 				</div>
 
 				<div className="post-links-wrapper">
-					<a className="post-link" href="#">
+					<a className="post-link" href={post.url}>
 						{post.num_comments ? `${post.num_comments} comments` : "comment"}
 					</a>
 					<a className="post-link-grey" href="#">

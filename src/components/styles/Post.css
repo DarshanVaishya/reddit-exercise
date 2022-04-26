@@ -1,9 +1,3 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
 .post {
 	display: flex;
 	gap: 20px;
@@ -69,4 +63,8 @@
 .post-links-wrapper {
 	display: flex;
 	gap: 10px;
+}
+
+.wrapper {
+	margin-bottom: 8px;
 }

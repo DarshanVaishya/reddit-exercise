@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+form button {
+	padding: 5px;
+	margin: 5px;
+	background: none;
+	border: 2px solid black;
+}
+
+form input {
+	padding: 5px;
+	border: 2px solid black;
+}
+
+h2 {
+	text-align: center;
+}
