@@ -14,7 +14,7 @@ function Post({ post }) {
 			</div>
 
 			<div className="post-image">
-				{post.thumbnail !== "self" && <img src={post.thumbnail} />}
+				{post.thumbnail !== "self" && <img src={post.thumbnail} alt="" />}
 			</div>
 
 			<div className="post-details">
