@@ -1,5 +1,5 @@
 export async function getPosts(subreddit) {
-	const URL = `http://www.reddit.com/r/${subreddit}.json`;
+	const URL = `https://www.reddit.com/r/${subreddit}.json`;
 	const response = await fetch(URL);
 
 	if (!response.ok) throw new Error("Error happened while fetching");
